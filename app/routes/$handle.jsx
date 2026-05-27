@@ -20,6 +20,10 @@ export async function loader({params, context}) {
   return {page: data.page};
 }
 
+export function meta({data}) {
+  return [{title: data?.page?.title ?? 'Barfusschuhe'}];
+}
+
 export default function Page() {
   const {page} = useLoaderData();
 
