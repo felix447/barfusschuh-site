@@ -88,7 +88,7 @@ export default function App() {
 
         <ScrollRestoration />
         <Scripts />
-        <script id="js-app-admq-data" type="application/json" dangerouslySetInnerHTML={{__html: JSON.stringify({sid: "2687198", cid: ""})}} />
+        <script id="js-app-admq-data" type="application/json" dangerouslySetInnerHTML={{__html: JSON.stringify({sid: "81024254172", cid: ""})}} />
         <script id="js-app-admq-script" src="https://shopify.admetrics.events/conversion-v1.min.js" data-advt="1" async />
       </body>
     </html>
